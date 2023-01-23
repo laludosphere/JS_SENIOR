@@ -46,7 +46,7 @@ console.log(userMsum);
 //Correction
 
 menSalaryTotal = userList
-                    .filter(user =>user.gender == 'M')
+                    .filter(user => user.gender == 'M')
                     .map(user => user.salary + 1000)
                     .reduce((menSalaryTotal,menSalary) => menSalaryTotal + menSalary);
 console.log(menSalaryTotal);
